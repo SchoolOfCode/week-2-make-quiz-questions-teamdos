@@ -70,43 +70,34 @@ let question7 = {
 let question8 = {
   question_text: "Which isn't part of Computational Thinking?",
   question_type: "multiple_choice",
-  options: ["", "", "", "",],
-  correct_option: ,
-  correct_explanation: "",
+  options: ["Add complexity", "Understand the Problem", "Look for Patterns", "Abstract Away"],
+  correct_option: 0,
+  correct_explanation: "Adding complexity would make the problem worse!",
 
 }
 
 let question9 = {
   question_text: "What is the first of the 12 principles of the Agile Manifesto ? ",
   question_type: "multiple_choice",
-  options: ["", "", "", "",],
-  correct_option: ,
-  correct_explanation: "",
+  options: [  "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software",
+    "Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.",
+    "Deliver working software frequently, from a couple of weeks to a couple of months, with preference to the shorter timescale.",
+    "Business people and developers must work together daily throughout the project."],
+  correct_option: 0,
+  correct_explanation: "It was the first one!",
 
 }
 
 let question10 = {
   question_text: "Which character did we try to get the secret password from in that game we played to learn AI prompt hacking/engineering? ",
   question_type: "multiple_choice",
-  options: ["Add complexity", "Understand the Problem", "Look for Patterns", "Abstract Away"],
-  correct_option: ,
-  correct_explanation: "",
+  options: ["Thor", "Darth Vader", "Winnie the Pooh", "Gandalf",],
+  correct_option: 3,
+  correct_explanation: "Gandalf was the wizard in the game",
 
 }
 
 module.exports = questions;
-
-
-
-
-// let question = {
-//   question_text: "",
-//   question_type: "multiple_choice",
-//   options: ["", "", "", "",],
-//   correct_option: ,
-//   correct_explanation: "",
-
-// }
 
 //question_text: This is a string that contains the text of the question you want to ask.
 //question_type: This should always be the string "multiple_choice" for this task.
@@ -126,18 +117,18 @@ module.exports = questions;
   // 7. Complete the phrase, Memory...? Palace, Castle, Hotel, Mansion
   // 8. Which isn't part of Computational Thinking? Add complexity, Understand the Problem, Look for Patterns, Abstract Away
   // 9. What is the first of the 12 principles of the Agile Manifesto ? 
-    //Our highest priority is to satisfy the customer
-    //through early and continuous delivery
-    //of valuable software. — this one 
+    // Our highest priority is to satisfy the customer
+    // through early and continuous delivery
+    // of valuable software. — this one 
 
-    //Welcome changing requirements, even late in
-    //development. Agile processes harness change for
-    //the customer's competitive advantage.
+    // Welcome changing requirements, even late in
+    // development. Agile processes harness change for
+    // the customer's competitive advantage.
 
-    //Welcome changing requirements, even late in
-    //development. Agile processes harness change for
-    //the customer's competitive advantage.
+    // Welcome changing requirements, even late in
+    // development. Agile processes harness change for
+    // the customer's competitive advantage.
 
-    //Business people and developers must work
-    //together daily throughout the project.
+    // Business people and developers must work
+    // together daily throughout the project.
   // 10. 
