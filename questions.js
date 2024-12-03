@@ -1,16 +1,13 @@
 // questions.js
 
-const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10
 
-];
- 
 let question1 = {
   question_text: "What is the cat in Scratch?",
   question_type: "multiple_choice",
   options: ["Sprite", "Block", "Variable", "Avatar",],
   correct_option: 0,
   correct_explanation: "The cat in Scratch is a sprite.",
-
+  
 }
 
 let question2 = {
@@ -19,7 +16,7 @@ let question2 = {
   options: ["Navigate to a different branch", "Creates a branch", "Deletes a branch", "Merges branches",],
   correct_option: 0,
   correct_explanation: "Git checkout navigates to a different branch.",
-
+  
 }
 
 let question3 = {
@@ -46,7 +43,7 @@ let question5 = {
   options: ["Fire + wire", "Play + Stay", "Fuse + Use", "Go + Flow ",],
   correct_option: 0,
   correct_explanation: "Neurons that fire together wire together!",
-
+  
 }
 
 let question6 = {
@@ -55,7 +52,7 @@ let question6 = {
   options: ["Preparation", "Focus", "Recovery", "Hunger"],
   correct_option: 3,
   correct_explanation: "Hunger is not part of a high performance routine!",
-
+  
 }
 
 let question7 = {
@@ -63,8 +60,8 @@ let question7 = {
   question_type: "multiple_choice",
   options: ["Palace", "Castle", "Hotel", "Mansion",],
   correct_option: 0,
-  correct_explanation: "",
-
+  correct_explanation: "It's called Memory Palace!",
+  
 }
 
 let question8 = {
@@ -73,19 +70,19 @@ let question8 = {
   options: ["Add complexity", "Understand the Problem", "Look for Patterns", "Abstract Away"],
   correct_option: 0,
   correct_explanation: "Adding complexity would make the problem worse!",
-
+  
 }
 
 let question9 = {
   question_text: "What is the first of the 12 principles of the Agile Manifesto ? ",
   question_type: "multiple_choice",
   options: [  "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software",
-    "Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.",
-    "Deliver working software frequently, from a couple of weeks to a couple of months, with preference to the shorter timescale.",
-    "Business people and developers must work together daily throughout the project."],
+  "Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.",
+  "Deliver working software frequently, from a couple of weeks to a couple of months, with preference to the shorter timescale.",
+  "Business people and developers must work together daily throughout the project."],
   correct_option: 0,
   correct_explanation: "It was the first one!",
-
+  
 }
 
 let question10 = {
@@ -94,8 +91,9 @@ let question10 = {
   options: ["Thor", "Darth Vader", "Winnie the Pooh", "Gandalf",],
   correct_option: 3,
   correct_explanation: "Gandalf was the wizard in the game",
-
+  
 }
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
 
 module.exports = questions;
 
