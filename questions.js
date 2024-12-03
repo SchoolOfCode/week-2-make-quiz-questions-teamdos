@@ -49,20 +49,64 @@ let question5 = {
 
 }
 
+let question6 = {
+  question_text: "Which of these is not part of a high performance routine?",
+  question_type: "multiple_choice",
+  options: ["Preparation", "Focus", "Recovery", "Hunger"],
+  correct_option: 3,
+  correct_explanation: "Hunger is not part of a high performance routine!",
 
+}
 
+let question7 = {
+  question_text: "Complete the phrase, Memory...?",
+  question_type: "multiple_choice",
+  options: ["Palace", "Castle", "Hotel", "Mansion",],
+  correct_option: 0,
+  correct_explanation: "",
 
+}
 
-
-
-let question = {
-  question_text: "",
+let question8 = {
+  question_text: "Which isn't part of Computational Thinking?",
   question_type: "multiple_choice",
   options: ["", "", "", "",],
   correct_option: ,
   correct_explanation: "",
 
 }
+
+let question9 = {
+  question_text: "What is the first of the 12 principles of the Agile Manifesto ? ",
+  question_type: "multiple_choice",
+  options: ["", "", "", "",],
+  correct_option: ,
+  correct_explanation: "",
+
+}
+
+let question10 = {
+  question_text: "Which character did we try to get the secret password from in that game we played to learn AI prompt hacking/engineering? ",
+  question_type: "multiple_choice",
+  options: ["Add complexity", "Understand the Problem", "Look for Patterns", "Abstract Away"],
+  correct_option: ,
+  correct_explanation: "",
+
+}
+
+module.exports = questions;
+
+
+
+
+// let question = {
+//   question_text: "",
+//   question_type: "multiple_choice",
+//   options: ["", "", "", "",],
+//   correct_option: ,
+//   correct_explanation: "",
+
+// }
 
 //question_text: This is a string that contains the text of the question you want to ask.
 //question_type: This should always be the string "multiple_choice" for this task.
@@ -71,7 +115,6 @@ let question = {
 //correct_explanation: This is a string that explains why the correct answer is correct. This helps learners understand the reasoning behind the answer.
 
 // Don't worry about this, we're just exporting the questions
-module.exports = questions;
 
  // Add your questions here
   // 1. What is the cat in Scratch? Sprite, Block, Variable, Avatar
