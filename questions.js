@@ -11,7 +11,7 @@ let question1 = {
   correct_option: 0,
   correct_explanation: "The cat in Scratch is a sprite.",
 
-},
+}
 
 let question2 = {
   question_text: "What does git checkout do?",
@@ -20,7 +20,7 @@ let question2 = {
   correct_option: 0,
   correct_explanation: "Git checkout navigates to a different branch.",
 
-},
+}
 
 let question3 = {
   question_text: "Which one is these isn't in the Chris learning retrieval?",
@@ -29,7 +29,7 @@ let question3 = {
   correct_option: 0,
   correct_explanation: "Instinct is not in the Chris learning retrieval. The I in Chris was interleaved practice",
 
-},
+}
 
 let question4 = {
   question_text: "Which of these isn't a Disney Ideation room?",
@@ -38,7 +38,7 @@ let question4 = {
   correct_option: 3,
   correct_explanation: "Creative is not a Disney Ideation room.",
 
-},
+}
 
 let question5 = {
   question_text: "Neurons that _____ together _____ together?",
